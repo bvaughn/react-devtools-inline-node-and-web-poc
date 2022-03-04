@@ -1,0 +1,14 @@
+{
+  "name": "test-react-devtools-inline-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Brian Vaughn <bvaughn@fb.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:backend": "node backend/start.js",
+    "start:frontend": "node frontend/start.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.4.1"
+  }
+}
