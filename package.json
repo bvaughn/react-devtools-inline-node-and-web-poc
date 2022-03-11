@@ -7,8 +7,5 @@
   "scripts": {
     "start:backend": "node backend/start.js",
     "start:frontend": "node frontend/start.js"
-  },
-  "dependencies": {
-    "socket.io-client": "^4.4.1"
   }
 }

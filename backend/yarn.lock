@@ -127,10 +127,10 @@ object-assign@^4:
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
-react-devtools-inline@^4.23.0:
-  version "4.23.0"
-  resolved "https://registry.yarnpkg.com/react-devtools-inline/-/react-devtools-inline-4.23.0.tgz#d2e390d9b1dd09d17dcff3536d4c83a7ce99370c"
-  integrity sha512-rwn91FuVyYDx0oTJOmI44HkRPe659Jp2Gpj9pPmjMtmSn92OA1Bk44dYPJIj6RefMpjfW5res3mYcKH9SU+NFQ==
+react-devtools-inline@^4.24.0:
+  version "4.24.0"
+  resolved "https://registry.yarnpkg.com/react-devtools-inline/-/react-devtools-inline-4.24.0.tgz#27e0750ebbc71674e2e6276b4fb69fd178fe397c"
+  integrity sha512-e3OZ0twtv+3bIpE9Rq1/Szo0aXj4tmxKGBFrzBhwPzbQyzcTWtmBQaOY1L88RUu7NS0OKwLBgu1Zco+87ePwhg==
   dependencies:
     source-map-js "^0.6.2"
     sourcemap-codec "^1.4.8"
