@@ -40,13 +40,15 @@ socket.on("connect", () => {
   const store = createStore(bridge);
   const DevTools = createDevTools(window, { bridge, store });
 
-  const root = createRoot(document.getElementById('root'));
+  root = createRoot(document.getElementById('root'));
   root.render(createElement(DevTools));
 });
 socket.on("disconnect", () => {
   console.log('Socket disconnected');
-  
-  root.unmount();
-  root = null;
+
+  if (root) {
+    root.unmount();
+    root = null;
+  }
 });
 
